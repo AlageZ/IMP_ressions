@@ -102,7 +102,7 @@ function searching(){
                 n_count++;
                 let i = {}
                 Object.keys(ii).forEach(iii => {
-                    i[iii] = ii[iii].replace(new RegExp("(" + tarvalue + ")", "gi"),"<mark>$1</mark>")
+                    i[iii] = ii[iii].replace(new RegExp("(" + tarvalue + ")", "gim"),"<mark>$1</mark>")
                 })
                 doing(i.good, i.conc,i.com, i.rep, i.imp_time, i.rep_time)
             }
