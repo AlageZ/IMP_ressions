@@ -1,0 +1,169 @@
+html,body{
+    margin: 0;
+    color: #332;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    background-color: #ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+h4{
+    margin: 0;
+    background: #f6f6f6;
+    border-top: 2px solid rgb(153, 153, 153);
+}
+#main{
+    box-sizing: border-box;
+    background-color: #FFF;
+    width: 930px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#sbox{
+    width: 100%;
+    height: 6vh;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1vh 5px;
+    padding-right: 0;
+}
+#searchbutton{
+    width: 4em;
+    height: 4vh;
+    line-height: 2vh;
+    font-size: 2vh;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#searchbox{
+    width: calc(100% - 10px - 12vh);
+    margin-right: 5px;
+    height: 4vh;
+    line-height: 3.5vh;
+    font-size: 3.5vh;
+    resize: none;
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100%;
+    border: solid 1px black;
+    background-color: rgb(218, 218, 218);
+    padding: 0 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.imp_and_rep{
+    font-size: min(16px,calc(calc(100vw - 50px) / 40));
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: rgb(69, 0, 90);
+    border: solid black 1px;
+    padding: 5px;
+    margin: 5px 0;
+    color: #FFF;
+}
+.imp{
+    font-size: medium;
+    background-color: #FFF;
+    border:#a9a9a9 solid 1px;
+    color: #332;
+}
+.rep{
+    font-size: medium;
+    background-color: #ffffee;
+    border:#a9a9a9 solid 1px;
+    color: #332;
+}
+#next{
+    text-align: center;
+    background-color: rgb(125, 166, 255);
+    font-size: large;
+    margin: 0 -10px;
+    cursor: pointer;
+}
+#next:hover{
+    filter: brightness(1.2);
+}
+#next:active{
+    filter: brightness(0.8)
+}
+.twbtn{
+    margin: 0;
+    height: 3.5vh;
+    width: 3.5vh;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-bottom: -0.5vh;
+}
+.twbtn:hover{
+    filter: brightness(1.2);
+}
+.twbtn:active{
+    filter: brightness(0.8);
+}
+#droplabel{
+    color: rgb(151, 151, 151);
+    vertical-align: top;
+    font-size: 3vh;
+    display: inline;
+    background: fixed;
+    user-select: none;
+    transform-origin: 50% 50% 0;
+}
+#droplabel:hover{
+    filter: brightness(2);
+}
+#dropcheck:checked~#droplabel{
+    color: greenyellow;
+}
+#dropcheck{
+    display: none;
+}
+mark{
+    border: #ffe600 solid 1px;
+    box-sizing: border-box;
+}
+.scr,.linkc{
+    cursor: default;
+    margin: 0 5px;
+    font-size: 3vh;
+    outline: none;
+    background: none;
+    border: none;
+    letter-spacing: -5;
+}
+.scr:hover,.linkc:hover{
+    filter: brightness(1.5);
+}
+.scr:active,.linkc:active{
+    filter: brightness(0.8);
+}
+.yohaku{
+    background-color: rgb(156, 156, 156);
+    padding: 15px;
+    position: absolute;
+    top:200vh;
+}
+.linked{
+    border: rgb(251, 255, 0) 5px dashed;
+}
+.yohaku>.linked{
+    border: solid black 1px;
+}
