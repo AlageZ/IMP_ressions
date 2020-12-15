@@ -168,7 +168,7 @@ async function screenshot(e){
     d.appendChild(e.target.parentNode.cloneNode(true))
     d = document.body.appendChild(d)
     html2canvas(d, {
-        scare: 3
+        scare: 10
     }).then((canvas)=>{
         d.outerHTML = ""
         canvas.toBlob(blob => {
