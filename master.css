@@ -73,7 +73,7 @@ h4{
     box-sizing: border-box;
 }
 .imp_and_rep{
-    font-size: min(16px,calc(calc(100vw - 50px) / 20));
+    font-size: min(16px,calc(calc(100vw - 50px) / 40));
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -84,13 +84,13 @@ h4{
     color: #FFF;
 }
 .imp{
-    font-size: medium;
+    font-size:min(16px,large);
     background-color: #FFF;
     border:#a9a9a9 solid 1px;
     color: #332;
 }
 .rep{
-    font-size: medium;
+    font-size:min(16px,large);
     background-color: #ffffee;
     border:#a9a9a9 solid 1px;
     color: #332;
