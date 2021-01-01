@@ -1,6 +1,7 @@
 *{
     padding:none;
     border-radius:none;
+    z-index: 1;
 }
 html,body{
     margin: 0;
