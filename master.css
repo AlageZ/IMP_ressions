@@ -1,3 +1,7 @@
+*{
+    padding:none;
+    border-radius:none;
+}
 html,body{
     margin: 0;
     color: #332;
@@ -50,12 +54,14 @@ h4{
     vertical-align: top;
 }
 #searchbox{
+    padding: none;
     width: calc(100% - 10px - 12vh);
     margin-right: 5px;
     height: 4vh;
     line-height: 3.5vh;
     font-size: 3.5vh;
     resize: none;
+    border-radius: none;
 }
 #results{
     display: flex;
