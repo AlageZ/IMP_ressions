@@ -1,8 +1,3 @@
-*{
-    padding:none;
-    border-radius:none;
-    z-index: 1;
-}
 html,body{
     margin: 0;
     color: #332;
@@ -62,7 +57,9 @@ h4{
     line-height: 3.5vh;
     font-size: 3.5vh;
     resize: none;
-    border-radius: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-border-radius:0; 
 }
 #results{
     display: flex;
