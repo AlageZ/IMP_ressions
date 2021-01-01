@@ -73,7 +73,7 @@ h4{
     box-sizing: border-box;
 }
 .imp_and_rep{
-    font-size: min(16px,calc(calc(100vw - 50px) / 40));
+    font-size: min(16px,calc(calc(100vw - 50px) / 20));
     box-sizing: border-box;
     width: 100%;
     height: auto;
